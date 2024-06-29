@@ -346,13 +346,13 @@ void memoryModify(state *s)
     memcpy(&s->mem_buf[location], &value, s->unit_size);
 
     // // FOR DEBUGGING!!
-    // FILE *file = fopen("yasmeenoutput", "wb");
+    // FILE *file = fopen("fawzioutput", "wb");
 
     // if (file != NULL)
     // {
     //     fwrite(s->mem_buf, s->mem_count, 1, file);
     //     fclose(file);
-    //     printf("Memory buffer saved to file: %s\n", "yasmeenoutput");
+    //     printf("Memory buffer saved to file: %s\n", "fawzioutput");
     // }
     // else
     // {
