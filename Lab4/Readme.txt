@@ -145,9 +145,7 @@ Option : 7
 Option: 5
 0 23 (0: because we stored in mem_buf ; 23 is the size of the main (we stored)..)
 Option :  6
-0 44d 1   (use the number that you calculate)
-
-(Edited correctly, but was not executed as requsted.)    
+0 44d 4   (use the number that you calculate)
 
 -----------------------------------------------------------------
                         TASK 4 
