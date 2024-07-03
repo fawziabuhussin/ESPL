@@ -43,7 +43,7 @@ Option : 1 => abc
 Option : 2 => 2
 Option : 3 => 12F 10
 Option : 6 => 960c170 33 4
-> hexedit abc: look at bytes from 33 to 38 (10 bytes) it will be changed to : 70  C1 60 09 00.40 804808a
+> hexedit abc: look at bytes from 33 to 38 (10 bytes) it will be changed to : 70  C1 60 09 00
 
                                                             it was before : 00 06 00 00 00
 
