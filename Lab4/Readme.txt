@@ -103,7 +103,7 @@ Option: 6
             TASK 3 : Delving Deeper into the ELF Structure
 -----------------------------------------------------------------
 
-
+*** NOTICE: THESE INFORMATION ARE BASED ON DEEP_THOGUHT, THE NEXT PARAGRAPH IS ABOUT OFFENIVE ******
 Doing required steps : 
 
 1) 64: 0804844d    23 FUNC    GLOBAL DEFAULT   13 main
@@ -147,6 +147,8 @@ Option: 5
 Option :  6
 0 44d 4   (use the number that you calculate)
 
+
+******** NOTICE : THIS IS THE INFORMATION ABOUT OFFENSIVE **********
 
 
 Doing this for offensive :
