@@ -105,10 +105,9 @@ Option: 6
 
 *** NOTICE: THESE INFORMATION ARE BASED ON DEEP_THOGUHT, THE NEXT PARAGRAPH IS ABOUT OFFENIVE ******
 Doing required steps : 
-
-1) 64: 0804844d    23 FUNC    GLOBAL DEFAULT   13 main
+1) readelf -s deep_thought :- 64: 0804844d    23 FUNC    GLOBAL DEFAULT   13 main
 2) Virtual addr : 0804844d, size : 23
-3) [13] .text    PROGBITS    08048350 000350 0001b2 00  AX  0   0 16
+3) readelf -S deep_thought :- [13] .text    PROGBITS    08048350 000350 0001b2 00  AX  0   0 16
 4) Virtual addr : 08048350, offset : 000350
 
 
@@ -149,7 +148,8 @@ Option :  6
 
 
 ******** NOTICE : THIS IS THE INFORMATION ABOUT OFFENSIVE **********
-
+> readelf -s offensive :- 62: 0804841d    23 FUNC    GLOBAL DEFAULT   13 main
+> readelf -S offensive :-  [13] .text             PROGBITS        08048320 000320 000192 00  AX  0   0 16
 
 Doing this for offensive :
 
