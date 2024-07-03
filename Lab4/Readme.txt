@@ -147,6 +147,37 @@ Option: 5
 Option :  6
 0 44d 4   (use the number that you calculate)
 
+
+
+Doing this for offensive :
+
+main virtual address : 0804841d
+main size : 23
+text virtual address : 08048320
+text offset : 000320
+
+main offset = (addres main) - (address .text) + (offset .text) = 41D
+    the .text address is  08048320 (readelf -S deep_thought [Section 13] => addr)
+    the .text offset is 000320 (readelf -S deep_thought => [SECTION 13] -> offset)
+    the main address 0804841d (readelf -s deep_thought => [61 => main => addr])
+Option: 1
+offensive
+Option: 2
+1
+Option: 3
+41D 23 (Offset of the main, save from the offset to the size of the main).
+Option: 4
+Option: 5
+0 23 (0: because we stored in mem_buf ; 23 is the size of the main (we stored)..)
+Option : 7
+0 c3   (C3 = return)
+Option: 5
+0 23 (0: because we stored in mem_buf ; 23 is the size of the main (we stored)..)
+Option :  6
+0 44d 1   (use the number that you calculate)
+
+
+
 -----------------------------------------------------------------
                         TASK 4 
 -----------------------------------------------------------------
