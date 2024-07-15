@@ -1,27 +1,31 @@
 
+# Lab 4 :
+
 -----------------------------------------------------------------
-                        TASK 0 
+#                        TASK 0 
 -----------------------------------------------------------------
 
 
-Task0a: 
-***  What shall we do? 
-> readelf -h abc
->>>>> Entry point address:               0x80483b0
->>>>> Number of section headers:         29
+## Task0a: 
+`What shall we do?`
+```
+readelf -h abc
+Entry point address:               0x80483b0
+Number of section headers:         29
+```
 
 
-
-Task0b: 
+## Task0b: 
 is already in Task1, which is :
-> ./task1 
+```
+ ./task1 
 * 1 => abc
 * 2 => 2
-
+```
 
 
 -----------------------------------------------------------------
-                        TASK 1 
+ #                       TASK 1 
 -----------------------------------------------------------------
 
 
