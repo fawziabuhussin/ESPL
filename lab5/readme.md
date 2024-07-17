@@ -6,9 +6,9 @@ This lab involves writing a static loader to load and execute 32-bit ELF formatt
 
 
 ## How to start?
-    YOu need to download the auxiiliary files (They change the files each year, so I didn't add the files to my github), check that your makefile compile 
+    1. YOu need to download the auxiiliary files (They change the files each year, so I didn't add the files to my github), check that your makefile compile 
     the files correctly by running a random main that print (Hello World) after executing ./loadme.
-
+    2. You may read or may not read the explanation of the task, anyway this explanation is enough to complete the lab.
     
 ## Used :
 
