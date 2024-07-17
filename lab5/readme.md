@@ -5,6 +5,11 @@
 This lab involves writing a static loader to load and execute 32-bit ELF formatted executables that do not use dynamic libraries. The loader will utilize the `system_call` interface. The code should be compiled with the `-m32` flag.
 
 
+## How to start?
+    YOu need to download the auxiiliary files (They change the files each year, so I didn't add the files to my github), check that your makefile compile 
+    the files correctly by running a random main that print (Hello World) after executing ./loadme.
+
+    
 ## Used :
 
 ### Elf32_Ehdr: 
